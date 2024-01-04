@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Infinite Gadget Grove" />
+    <meta name="author" content="Evangline" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Infinite Gadget Grove</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <header class="header flex items-center justify-between p-5 xl:px-0">
+        <div class="logo flex items-center">
+            <a href="./index.html">
+                <img src="./images/Logo.png" alt="Infinite Gadget Grove" class="center"/>
+            </a>
+        </div>
+        <nav>
+            <ul class="flex">
+              <li class="mx-2"><a href="#laptops">Laptops</a></li>
+              <li><a href="#mobile_phones">Mobile_Phones</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+      <!-- Showcase -->
+      <section
+        class="
+          showcase
+          flex flex-col-reverse
+          md:grid
+          grid-cols-2
+          bg-black
+          md:items-center
+        "
+      >
+        <div
+          class="text text-white py-10 px-5 text-center md:text-left xl:px-20"
+        >
+
+          <h3 class="orange mb-10">Get yours today</h3>
+          <h1 class="font-bold text-4xl mb-5">Laptops and Mobiles</h1>
+          <button class="btn-showcase">Browse Laptops and Mobile Phones</button>
+        </div>
+
+        <div class="showcase-picture">
+          <img src="./images/Laptop and Mobile.jpg" alt="mic 1" class="w-full md:h-full" />
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <br>
+      <p id="laptops" style="text-align: left;font-weight: bold; font-size: xx-large; font-family: 'Abril Fatface', serif;">
+      LAPTOPS: 
+      </p>
+
+      <section class="section-2 md:my-10">
+        <!-- First-card -->
+        <div class="cards relative">
+          <div class="overlay">
+            <div class="img-inner"></div>
+          </div>
+          <article class="absolute bottom-5 text-center p-5 text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">Gaming Laptop</h3>
+            <p>
+              A high-performance portable computer designed specifically for 
+              playing video games with enhanced graphics, processing power, and cooling capabilities.
+            </p>
+            <button class="btn-show">Add To Cart</button>
+          </article>
+        </div>
+
+        <!-- Second card -->
+        <div class="cards relative">
+          <div class="overlay-1">
+            <div class="img-inner"></div>
+          </div>
+          <article class="absolute bottom-5 text-center p-5 text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">2-in-1 Laptop</h3>
+            <p>
+              A versatile device that functions as both a laptop and a tablet, 
+              offering a flexible form factor with a detachable or foldable touchscreen.
+            </p>
+            <button class="btn-show">Add To Cart</button>
+          </article>
+        </div>
+        
+        <!-- Third card -->
+        <div class="cards relative">
+          <div class="overlay-2">
+            <div class="img-inner"></div>
+          </div>
+          <article class="absolute bottom-5 text-center text-white">
+            <h3 class="font-bold text-3xl mb-5 uppercase">NetBook</h3>
+            <p>
+              A compact and lightweight laptop designed for basic computing 
+              tasks and portability, typically featuring a small display and lower-powered hardware.
+            </p>
+            <button class="btn-show">Add To Cart</button>
+          </article>
+        </div>
+
+      <!-- Fourth card -->
+      <div class="cards relative">
+        <div class="overlay-3">
+          <div class="img-inner"></div>
+        </div>
+        <article class="absolute bottom-5 text-center p-5 text-white">
+          <h3 class="font-bold text-3xl mb-5 uppercase">Rugged Laptop</h3>
+          <p>
+            A durable and robust computer built to withstand harsh environmental 
+            conditions, making it suitable for use in challenging or outdoor settings.
+          </p>
+          <button class="btn-show">Add To Cart</button>
+        </article>
+      </div>
+
+      <!-- Fifth card -->
+      <div class="cards relative">
+        <div class="overlay-4">
+          <div class="img-inner"></div>
+        </div>
+        <article class="absolute bottom-5 text-center p-5 text-white">
+          <h3 class="font-bold text-3xl mb-5 uppercase">WorkStation Laptop</h3>
+          <p>
+            A high-performance device optimized for resource-intensive tasks such as 
+            content creation, 3D rendering, and professional-grade software applications.
+          </p>
+          <button class="btn-show">Add To Cart</button>
+        </article>
+      </div>
+    </section>
+
+      <br>
+      <p id="mobile_phones" style="text-align: left;font-weight: bold; font-size: xx-large; font-family: 'Abril Fatface', serif;">
+      MOBILE PHONES: 
+      </p>
+
+      <section class="section-2 md:my-10">
+      <!-- Sixth card -->
+      <div class="cards relative">
+        <div class="overlay-5">
+          <div class="img-inner"></div>
+        </div>
+        <article class="absolute bottom-5 text-center p-5 text-white">
+          <h3 class="font-bold text-3xl mb-5 uppercase">Foldable Phone</h3>
+          <p>
+            A flexible display that allows the device to be folded or unfolded, 
+            offering a compact design when closed and a larger screen when opened.
+          </p>
+          <button class="btn-show">Add To Cart</button>
+        </article>
+      </div>
+
+    <!-- Seventh card -->
+    <div class="cards relative">
+      <div class="overlay-6">
+        <div class="img-inner"></div>
+      </div>
+      <article class="absolute bottom-5 text-center p-5 text-white">
+        <h3 class="font-bold text-3xl mb-5 uppercase">Rugged Phone</h3>
+        <p>
+          A durable and sturdy mobile device designed to withstand tough 
+          conditions, making it resistant to water, dust, and drops.
+        </p>
+        <button class="btn-show">Add To Cart</button>
+      </article>
+    </div>
+
+  <!-- Eighth card -->
+  <div class="cards relative">
+    <div class="overlay-7">
+      <div class="img-inner"></div>
+    </div>
+    <article class="absolute bottom-5 text-center p-5 text-white">
+      <h3 class="font-bold text-3xl mb-5 uppercase">Gaming Phone</h3>
+      <p>
+        A mobile device specifically tailored for gaming, often featuring 
+        high-refresh-rate displays, powerful processors, and gaming-centric features.
+      </p>
+      <button class="btn-show">Add To Cart</button>
+    </article>
+  </div>
+
+<!-- Nineth card -->
+<div class="cards relative">
+  <div class="overlay-8">
+    <div class="img-inner"></div>
+  </div>
+  <article class="absolute bottom-5 text-center p-5 text-white">
+    <h3 class="font-bold text-3xl mb-5 uppercase">Tablet</h3>
+    <p>
+      A portable computing device with a touchscreen interface, typically larger than a smartphone, 
+      and used for various applications such as browsing, entertainment, and productivity.
+    </p>
+    <button class="btn-show">Add To Cart</button>
+  </article>
+</div>
+
+<!-- Tenth card -->
+<div class="cards relative">
+  <div class="overlay-9">
+    <div class="img-inner"></div>
+  </div>
+  <article class="absolute bottom-5 text-center p-5 text-white">
+    <h3 class="font-bold text-3xl mb-5 uppercase">Smart Phone</h3>
+    <p>
+      A mobile device with advanced computing capabilities, featuring a touchscreen interface, 
+      internet connectivity, and a range of applications for communication and productivity.
+    </p>
+    <button class="btn-show">Add To Cart</button>
+  </article>
+</div>
+</section>
+
+      
+
+<div class="text-center">
+  <button class="btn-showcase">Buy</button>
+</div>
+<br>
+
+    </main>
+
+
+    <footer class="footer">
+      <div
+        class="
+          footer-inner
+          flex flex-col
+          items-center
+          justify-center
+          p-5
+          text-center
+          md:flex-row md:justify-between md:p-10
+          xl:px-0
+        "
+      >
+      <div class="logo mb-5 md:mb-0" style="align-self: flex-start;">
+        <img src="./images/Logo.png" class="social"/>
+      </div>
+
+      <div>
+        <img src="./images/social media.jpeg" class="social">
+      </div>
+
+      <nav class="mb-5 md:mb-0">
+        <ul class="md:flex text-center">
+          <li class="my-1 md:my-0 md:mx-2"><a href="#laptops">Laptops</a></li>
+          <li class="my-1 md:my-0 md:mx-2"><a href="#mobile_phones">Mobile_Phones</a></li>
+        </ul>
+      </nav>
+    
+      </div>
+    </footer>
+
+
+    <script src="app.js">
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,230 @@
+:root {
+    --bright-orange: #e38d0b;
+    --gray: #323030;
+    --white: #ffffff;
+    --black: #000000;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  p {
+    font-family: 'Lobster', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+
+  .center {
+    width:30%;
+  }
+
+  body {
+    font-family: 'Anton', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  button {
+    user-select: none;
+  }
+  
+  .btn-showcase {
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-showcase:hover {
+    background-color: var(--white);
+    color: var(--gray);
+    padding: 10px 40px;
+  }
+
+  .btn-show {
+    background-color: var(--white);
+    color: var(--gray);
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-show:hover {
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 10px 40px;
+  }
+  
+  .btn-white {
+    background-color: var(--white);
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .btn-white:hover {
+    padding: 10px 40px;
+  }
+  
+  .showcase .text h3 {
+    color: var(--bright-orange);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Section-2 */
+  .section-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  /* Cards */
+  .cards article {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .cards article h3 {
+    letter-spacing: 10px;
+  }
+  
+  .cards .overlay {
+    background: url("./images/Gaming\ Laptop.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .cards .overlay-1 {
+    background: url("./images/2-in-1\ Laptop.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-1 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .cards .overlay-2 {
+    background: url("./images/NetBook.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-2 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .cards .overlay-3 {
+    background: url("./images/Rugged\ Laptop.jpeg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-3 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.cards .overlay-4 {
+    background: url("./images/WorkStation\ Laptop.png") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-4 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .cards .overlay-5 {
+    background: url("./images/Foldable\ Phone.jpeg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-5 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .cards .overlay-6 {
+    background: url("./images/Rugged\ Phone.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-6 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .cards .overlay-7 {
+    background: url("./images/Gaming\ Phone.png") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-7 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .cards .overlay-8 {
+    background: url("./images/Tablet.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-8 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .cards .overlay-9 {
+    background: url("./images/SmartPhone.jpg") no-repeat center/cover;
+    height: 400px;
+  }
+  
+  .cards .overlay-9 .img-inner {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  .social{
+    width:50%;
+  }
+  
+  @media (min-width: 768px) {
+    .section-2 {
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin: 30px 0;
+    }
+  
+    .section-2 .cards:nth-child(5) {
+      grid-column: 1 / 3;
+    }
+
+    .section-2 .cards:nth-child(10) {
+      grid-column: 1 / 3;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .wrapper,
+    .footer-inner {
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
+
+
+
